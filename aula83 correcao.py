@@ -28,8 +28,8 @@ for pergunta in perguntas:
 
   escolha = input('Escolha uma opção: ')
 
-  acertou = False
   escolhaInteiro = None
+  acertou = False
   qtdOpcoes = len(opcoes)
   
   if escolha.isdigit():
